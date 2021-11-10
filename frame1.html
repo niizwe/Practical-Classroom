@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+  <style>
+  * {
+  box-sizing: border-box;
+  }
+
+  .column {
+  float: left;
+  width:20%;
+  padding: 5px;
+  }
+
+  /* Clearfix (clear floats) */
+  .row::after {
+  content: "";
+  clear: both;
+  display: table;
+  }
+  </style>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <center>
+    <font size="10">Which Department you want to visit?</font>
+  </center><br>
+  <center>
+    <div class="row">
+      <div class="column">
+        <a href="eco.html" target="frame2"><img src="DSE.jpg" alt="Economics Department" style="width:270px;height:300px;">
+        <figcaption>
+          Economics Department
+        </figcaption></a>
+      </div>
+      <div class="column">
+        <a href="cs.html" target="frame2"><img src="logo.jpeg" alt="Computer Science Department" style="width:270px;height:300px;">
+        <figcaption>
+          Computer Science Department
+        </figcaption></a>
+      </div>
+      <div class="column">
+        <a href="math.html" target="frame2"><img src="logo.jpeg" alt="Mathematics Department" style="width:270px;height:300px;">
+        <figcaption>
+          Mathematics Department
+        </figcaption></a>
+      </div>
+      <div class="column">
+        <a href="history.html" target="frame2"><img src="logo.jpeg" alt="History Department" style="width:270px;height:300px;">
+        <figcaption>
+          Political Science Department
+        </figcaption></a>
+      </div>
+    </div>
+  </center>
+</body>
+</html>
